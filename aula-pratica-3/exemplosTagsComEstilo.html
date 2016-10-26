@@ -1,0 +1,389 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplos de tags HTML</title>
+	<style>
+body {
+	font-family: "Arial", sans-serif;
+	background: #ddffdd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+p {
+	letter-spacing: 1px;
+	word-spacing: 2px;
+	line-height: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+	border-bottom: dotted 2px #ff3333;
+}
+
+a.imagem-sem-borda {
+	text-decoration: none;
+	border: 0 none;
+}
+
+a:hover, a:visited {
+	background: #cceecc;
+}
+
+ul li {
+	line-height: 25px;
+}
+
+#lista-ordenada {
+	border: solid 1px black;
+}
+
+ol {
+	/*border: solid 1px black;*/
+}
+
+ol li {
+	list-style-type: lower-alpha;
+	padding-left: 15px;
+}
+
+#menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: #aaffaa;
+}
+
+#menu li {
+	padding: 15px 0px 15px 0px;
+	display: inline-block;
+	text-align: center;
+	float: left;
+}
+
+#menu li a, a:visited {
+	padding: 20px;
+	border: none;
+}
+
+#menu li a:hover {
+	background: #44ff44;
+}
+
+#mafagafo {
+	float: right;
+}
+
+img {
+	vertical-align: middle;
+}
+
+hr {
+	clear:right;
+}
+
+table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0px auto;
+}
+
+caption {
+	font-size: 12px;
+}
+
+thead {
+	background: #bbbbbb;
+
+}
+
+tr {
+	border-bottom: 1px solid #cccccc;
+	height: 25px;
+}
+
+tbody tr:hover {
+	background: #4488ee;
+}
+
+tr:last-child {
+	border-bottom: none;
+}
+
+td {
+	text-align: center;
+}
+
+legend {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+fieldset {
+	line-height: 20px;
+	padding: 10px;
+	border: 5px solid #aaFFaa;
+	width: 300px;
+}
+
+
+input {
+	display: block;
+	border: 1px solid black;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+input:focus {
+	background: #ffffcc;
+}
+
+input[type="checkbox"] {
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+
+#opcoesInteresse {
+	margin-left: 10%;
+	vertical-align: top;
+	display: block;
+	padding-top: 0px;
+	margin-bottom: 20px;
+	
+}
+
+input[type="radio"] {
+	height: 25px;
+
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-bottom: 0px;
+}
+
+#opcoesIdade {
+	margin-left: 10%;
+	vertical-align: top;
+	display: block;
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+
+#opcoes {
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+
+select {
+	background: #ffffff;
+	display: block;	
+	border: 1px solid black;
+	width: 200px;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+textarea {
+	border: 1px solid black;
+	font-family: monospace;
+	resize: none;
+	display: block;
+	margin: 0px auto 20px auto;
+/*
+	margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+*/
+}
+
+input[type=reset] {
+	background: #ffff00;
+	color: #000000;
+	border-radius: 5px;
+	display: inline;
+	margin: 0 50px;
+
+	float: left;
+}
+
+input[type=submit] {
+	background: #00ff00;
+	color: #000000;
+	border-radius: 5px;
+	display: inline;
+	margin: 0 50px;
+	float: right;
+}
+
+	</style>
+	<script type="text/javascript"></script>
+</head>
+
+<body>
+
+<h1 id="titulo1">Título 1</h1>
+<h2>Título 2</h2>
+<h3>Título 3</h3>
+<h4>Título 4</h4>
+<h5>Título 5</h5>
+<h6>Título 6</h6>
+
+<h1>Parágrafos</h1>
+<p>Parágrafo 1: texto bem longo para encher linguiça sempre tem que ter o lorem ipsum dolor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra lectus rutrum, maximus sem id, lacinia enim. Vestibulum non enim eget dui pulvinar semper. Aliquam aliquam pretium nunc sed luctus. Ut convallis arcu ullamcorper, mattis purus a, scelerisque neque. Cras in mauris vitae turpis aliquet fringilla. In imperdiet rutrum dignissim. Curabitur dictum iaculis lorem, et consequat lectus lobortis a. Pellentesque ac risus tellus. Donec a felis ac sem mollis condimentum non dapibus ex. Praesent in malesuada enim. In hac habitasse platea dictumst. Ut viverra neque odio, a fermentum dolor dapibus id. Aenean vel congue est. Donec quis tristique magna. Proin eget blandit ex, euismod dictum metus. Cras aliquet mollis felis quis venenatis.</p>
+
+<p>Parágrafo 2: continuando lorem ipsum dolor. Agora com quebras de linha. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra lectus rutrum, maximus sem id, lacinia enim. Vestibulum non enim eget dui pulvinar semper. <br/> Aliquam aliquam pretium nunc sed luctus. Ut convallis arcu ullamcorper, mattis purus a, scelerisque neque. Cras in mauris vitae turpis aliquet fringilla. In imperdiet rutrum dignissim. Curabitur dictum iaculis lorem, et consequat lectus lobortis a. Pellentesque ac risus tellus. Donec a felis ac sem mollis condimentum non dapibus ex. Praesent in malesuada enim. In hac habitasse platea dictumst. <br/> Ut viverra neque odio, a fermentum dolor dapibus id. Aenean vel congue est. Donec quis tristique magna. Proin eget blandit ex, euismod dictum metus. Cras aliquet mollis felis quis venenatis.</p>
+
+<p>Parágrafo 3: continuando lorem ipsum dolor. Agora com quebras de linha. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra lectus rutrum, maximus sem id, lacinia enim. Vestibulum non enim eget dui pulvinar semper. <br/> Aliquam aliquam pretium nunc sed luctus. Ut convallis arcu ullamcorper, mattis purus a, scelerisque neque. Cras in mauris vitae turpis aliquet fringilla. In imperdiet rutrum dignissim. Curabitur dictum iaculis lorem, et consequat lectus lobortis a. Pellentesque ac risus tellus. Donec a felis ac sem mollis condimentum non dapibus ex. Praesent in malesuada enim. In hac habitasse platea dictumst. <br/> Ut viverra neque odio, a fermentum dolor dapibus id. Aenean vel congue est. Donec quis tristique magna. Proin eget blandit ex, euismod dictum metus. Cras aliquet mollis felis quis venenatis.</p>
+
+<hr/>
+
+<h1>Listas</h1>
+
+Lista não ordenada (unordered list):
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 4</li>
+</ul>
+
+<br/>
+
+<div id="lista-ordenada">
+Lista ordenada (ordered list):
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 4</li>
+</ol>
+</div>
+
+<br/>
+Lista em forma de menu:
+
+<nav>
+<ul id="menu">
+<li><a href="#">Item 1</a></li>
+<li><a href="#">Item 2</a></li>
+<li><a href="#">Item 3</a></li>
+</ul>
+</nav>
+
+<hr/>
+<h1>Outras tags</h1>
+<figure id="mafagafo">
+<img src="mafagafo.jpg" width="100" height="100" alt="Mafagafo" />
+<figcaption>Mafagafo</figcaption>
+</figure>
+<a href="http://www.google.com">Link para o Google</a>
+<br/>
+Link para uma seção (bookmark): <a href="#titulo1">Título 1</a>
+<br/>
+<br/>
+<a href="http://www.facebook.com" class="imagem-sem-borda"><img src="facebook.png" alt="Facebook" width="50" height="50" /></a> Texto
+
+
+<hr/>
+<h1>Tabelas</h1>
+
+<table>
+<caption>Pessoas</caption>
+<thead>
+	<tr>
+		<th>Número</th>
+		<th>Nome</th>
+		<th>Bairro</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>1</td>
+		<td>Arlindo</td>
+		<td>Kobrasol</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Bernardo</td>
+		<td>Forquilhinhas</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Carlito</td>
+		<td>Jardim Atlântico</td>
+	</tr>
+</tbody>
+</table>
+
+<hr/>
+<h1>Formulários</h1>
+
+<form action="">
+<fieldset>
+	<legend>Dados pessoais</legend>
+	<div>
+	<label for="nome">Nome</label> <input type="text" id="nome" size="50" maxlength="50" />
+	</div>
+	<div>
+	<label for="email">E-mail</label> <input type="text" id="email" size="30" maxlength="30" />
+	</div>
+	<div>
+	<label for="senha">Senha</label> <input type="password" id="senha" />
+	</div>
+	<div>
+	<label for="bairro">Bairro</label>
+	<select id="bairro">
+		<option>Kobrasol</option>
+		<option>Campinas</option>
+		<option>Forquilhinhas</option>
+		<option>Jardim Atlântico</option>
+		<option>Sertão do Maruim</option>
+		<option>Bela Vista</option>
+		<option selected="selected">Outro</option>
+	</select>
+	</div>
+	<div>
+	Interesses:
+	<div id="opcoesInteresse">
+	<div><input type="checkbox" name="interesse"/>Pizza</div>
+	<div><input type="checkbox" name="interesse"/>Hot-dog</div>
+	<div><input type="checkbox" name="interesse"/>X</div>
+	</div>
+	</div>
+	<div>
+	Idade:
+	<div id="opcoesIdade">
+	<div><input type="radio" name="idade"/>0-18</div>
+	<div><input type="radio" name="idade"/>18-35</div>
+	<div><input type="radio" name="idade"/>35-50</div>
+	<div><input type="radio" name="idade"/>50+</div>
+	</div>
+	</div>
+	<div>
+	Outros dados:
+	<br/>
+	<textarea cols="50" rows="5"></textarea>
+	</div>
+	<div>
+	<input type="hidden" name="textoOculto" value="valorOculto" />
+	<input type="reset" />
+	<input type="submit"/>
+	</div>
+</fieldset>
+</form>
+
+</body>
+<!--
+https://perishablepress.com/css-remove-link-underlines-borders-linked-images/
+-->
+</html>
