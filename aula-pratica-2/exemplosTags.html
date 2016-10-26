@@ -1,0 +1,136 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Exemplos de tags HTML</title>
+	<style></style>
+	<script type="text/javascript"></script>
+</head>
+
+<body>
+
+<h1 id="titulo1">Título 1</h1>
+<h2>Título 2</h2>
+<h3>Título 3</h3>
+<h4>Título 4</h4>
+<h5>Título 5</h5>
+<h6>Título 6</h6>
+
+<h1>Parágrafos</h1>
+<p>Parágrafo 1: texto bem longo para encher linguiça sempre tem que ter o lorem ipsum dolor: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra lectus rutrum, maximus sem id, lacinia enim. Vestibulum non enim eget dui pulvinar semper. Aliquam aliquam pretium nunc sed luctus. Ut convallis arcu ullamcorper, mattis purus a, scelerisque neque. Cras in mauris vitae turpis aliquet fringilla. In imperdiet rutrum dignissim. Curabitur dictum iaculis lorem, et consequat lectus lobortis a. Pellentesque ac risus tellus. Donec a felis ac sem mollis condimentum non dapibus ex. Praesent in malesuada enim. In hac habitasse platea dictumst. Ut viverra neque odio, a fermentum dolor dapibus id. Aenean vel congue est. Donec quis tristique magna. Proin eget blandit ex, euismod dictum metus. Cras aliquet mollis felis quis venenatis.</p>
+
+<p>Parágrafo 2: continuando lorem ipsum dolor. Agora com quebras de linha. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra lectus rutrum, maximus sem id, lacinia enim. Vestibulum non enim eget dui pulvinar semper. <br/> Aliquam aliquam pretium nunc sed luctus. Ut convallis arcu ullamcorper, mattis purus a, scelerisque neque. Cras in mauris vitae turpis aliquet fringilla. In imperdiet rutrum dignissim. Curabitur dictum iaculis lorem, et consequat lectus lobortis a. Pellentesque ac risus tellus. Donec a felis ac sem mollis condimentum non dapibus ex. Praesent in malesuada enim. In hac habitasse platea dictumst. <br/> Ut viverra neque odio, a fermentum dolor dapibus id. Aenean vel congue est. Donec quis tristique magna. Proin eget blandit ex, euismod dictum metus. Cras aliquet mollis felis quis venenatis.</p>
+
+<p>Parágrafo 3: continuando lorem ipsum dolor. Agora com quebras de linha. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra lectus rutrum, maximus sem id, lacinia enim. Vestibulum non enim eget dui pulvinar semper. <br/> Aliquam aliquam pretium nunc sed luctus. Ut convallis arcu ullamcorper, mattis purus a, scelerisque neque. Cras in mauris vitae turpis aliquet fringilla. In imperdiet rutrum dignissim. Curabitur dictum iaculis lorem, et consequat lectus lobortis a. Pellentesque ac risus tellus. Donec a felis ac sem mollis condimentum non dapibus ex. Praesent in malesuada enim. In hac habitasse platea dictumst. <br/> Ut viverra neque odio, a fermentum dolor dapibus id. Aenean vel congue est. Donec quis tristique magna. Proin eget blandit ex, euismod dictum metus. Cras aliquet mollis felis quis venenatis.</p>
+
+<hr/>
+
+<h1>Listas</h1>
+
+Lista não ordenada (unordered list):
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 4</li>
+</ul>
+
+Lista ordenada (ordered list):
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+<li>Item 4</li>
+</ol>
+
+<hr/>
+
+<h1>Outras tags</h1>
+<a href="http://www.google.com">Link para o Google</a>
+<br/>
+Link para uma seção (bookmark): <a href="#titulo1">Título 1</a>
+<br/>
+<figure>
+<img src="mafagafo.jpg" width="100" height="100" alt="Mafagafo" />
+<figcaption>Mafagafo</figcaption>
+</figure>
+<br/>
+<a href="http://www.facebook.com"><img src="facebook.png" alt="Facebook" width="50" height="50" /></a>
+
+<hr/>
+<h1>Tabelas</h1>
+
+<table>
+<caption>Pessoas</caption>
+<thead>
+	<tr>
+		<th>Número</th>
+		<th>Nome</th>
+		<th>Bairro</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>1</td>
+		<td>Arlindo</td>
+		<td>Kobrasol</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Bernardo</td>
+		<td>Forquilhinhas</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Carlito</td>
+		<td>Jardim Atlântico</td>
+	</tr>
+</tbody>
+</table>
+
+<hr/>
+<h1>Formulários</h1>
+
+<form action="">
+<fieldset>
+	<legend>Dados pessoais</legend>
+	<label for="nome">Nome</label> <input type="text" id="nome" size="50" maxlength="50" />
+	<br/>
+	<label for="email">E-mail</label> <input type="text" id="email" size="30" maxlength="30" />
+	<br/>
+	<label for="senha">Senha</label> <input type="password" id="senha" />
+	<br/>
+	<label for="bairro">Bairro</label>
+	<select id="bairro">
+		<option>Kobrasol</option>
+		<option>Campinas</option>
+		<option>Forquilhinhas</option>
+		<option>Jardim Atlântico</option>
+		<option>Sertão do Maruim</option>
+		<option>Bela Vista</option>
+		<option selected="selected">Outro</option>
+	</select>
+	<br/>
+	Interesses:
+	<input type="checkbox" name="interesse"/>Pizza
+	<input type="checkbox" name="interesse"/>Hot-dog
+	<input type="checkbox" name="interesse"/>X
+	<br/>
+	Idade:
+	<input type="radio" name="idade"/>0-18
+	<input type="radio" name="idade"/>18-35
+	<input type="radio" name="idade"/>35-50
+	<input type="radio" name="idade"/>50+
+	<br/>
+	Outros dados:
+	<br/>
+	<textarea cols="50" rows="5"></textarea>
+	<br/>
+	<input type="hidden" name="textoOculto" value="valorOculto" />
+	<input type="reset" />
+	<input type="submit"/>
+</fieldset>
+</form>
+
+</body>
+
+</html>
