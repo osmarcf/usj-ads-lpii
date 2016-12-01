@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cadastra Pessoa</title>
+</head>
+<body>
+
+<form action="cadastroPessoa" method="post">
+<input type="hidden" name="acao" value="cadastrar" />
+Nome: <input type="text" id="nome" name="nome"/><br/>
+E-mail: <input type="text" id="email" name="email"/><br/>
+<input type="submit"/>
+</form>
+
+<form action="cadastroPessoa" method="post">
+<input type="hidden" name="acao" value="remover" />
+E-mail: <input type="text" id="email" name="email"/><br/>
+<input type="submit"/>
+</form>
+
+</body>
+</html>
